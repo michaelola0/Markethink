@@ -440,8 +440,34 @@ header {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1;
     column-gap: 30px;
+    align-items: start;
 }
 
 .help-content-grid-item {
     max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+
+.help-icon-wrap {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.is-help-icon-lg {
+    width: 100px;
+    height: 100px;
 }
